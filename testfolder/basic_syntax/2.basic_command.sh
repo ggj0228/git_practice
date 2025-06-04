@@ -14,8 +14,16 @@ git commit
 # commit이력 확인 
 git log 
 git log --oneline
+# head하단에 로그만 보이는 것이 아니라, 모든 commit이력을 조회
+# head : 현재 checkout하고 있는 commitID를 의미.
+git log --all
 
 # 원격저장소로 업로드
 git push origin main
 # 충돌발생시 충돌무시하고, 로컬기준으로 원격에 덮여쓰기
 git push origin main --force
+
+# 특정 commit ID로의 전환
+git checkout 커밋ID
+# 특정 branch로의 전환
+git checkout 브랜치명 
