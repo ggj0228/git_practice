@@ -3,8 +3,4 @@ hello world 2
 hello world 3
 hello world 4
 hello world 5
-<<<<<<< HEAD
-hello world 9
-=======
-hello world 8
->>>>>>> fecbe8d85af49139249781df17e152eb146b8aea
+hello wolrld 2
